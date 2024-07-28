@@ -1,0 +1,882 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F2F4;
+    scroll-behavior: smooth;
+    
+}
+.top{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.header{
+
+    width: 100%;
+    height: 4.5rem ;
+    background-color:#fff;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 28px;
+  
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.875rem;
+}
+
+.name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 2.1875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name h2{
+    font-size: 1.4rem;
+    color: #2A55E5;
+}
+
+.premium{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    height: 0.9375rem    ;
+    font-size: 0.8125rem    ;
+}
+
+.premium h4{
+    font-size: 0.8125rem    ;
+    color: #9E9E9E;
+}
+.premium span{
+    color: #FFCC00;
+}
+
+.search-bar{
+    width: 37.5rem;
+    background-color: #F0F5FF;
+    display: flex;
+    position: absolute;
+    left:  150px;
+    top: 20px;
+    border-radius:  5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.75rem;
+    width: 2.5rem;
+    padding: 0 8px;
+}
+.search-icon i{
+    font-size: 24px;
+    opacity: .3;
+}
+.search-box{
+    width: 100%;
+}
+
+#bar{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.panel-options{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 730px;
+    top: 20px;
+    /* background-color: aqua; */
+    width: 750px;
+    height: 44px;
+}
+
+.seller{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    padding: 0 20px;
+    /* margin-left: 70px; */
+}
+
+.seller i{
+    font-size: 24px;
+}
+.seller-icon{
+    width: 40px;
+}
+.seller-text{
+    text-align: center;
+}
+.seller p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.account{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(218, 86, 86); */
+    width: 10.625rem;
+    height: 100%;
+}
+
+.account-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.account-icon{
+    width: 2.5rem;
+    align-items: center;
+    font-size: 20px;
+}
+
+.account-text{
+    text-align: center;
+}
+.account-text p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+.account-dropdown{
+    width: 1.875rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.crate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    /* background-color: #9E9E9E; */
+}
+
+.crate-icon i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.cart-text{
+    text-align: center;
+}
+.cart-text p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+.body{
+    padding: 0 16px;
+}
+    
+.categories{
+    background-color: #fff;
+    position: relative;
+    top: 88px;
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.ctgs{
+    height: 142px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 16px; */
+}
+.ctgss{
+    height: 93px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;  
+}
+
+.ctg{
+    height: 93px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.imgs{
+    width: 90px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgs img{
+    height: 64px;
+    width: 64px;
+}
+
+/* .cat-text p {
+    font-weight: 800;
+    font-size: 14px;
+} */
+
+#text{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text2{
+    width: 90px;
+    height: 34px;
+    display: flex;
+    text-align: center;
+    margin: 6.5px 0;
+}
+
+.ctg2{
+    height: 93px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.carousel{
+    position: relative;
+    top: 54px;
+}
+
+.best-mobile{
+    position: relative;
+    top: 128px;
+    background-color: #fff;
+    height: 344px;
+    
+}
+.mobile-carousel{
+    height: 264px;
+}
+
+
+.mobile-text{
+    /* background-color: rgb(58, 210, 210); */
+    height: 80px;
+    padding: 16px 12px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.mobile-text h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mobiless{
+    width: 100%;
+    height: 252px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #FFCC00; */
+}
+
+.mobile1{
+    
+    border: 1px solid rgba(0, 0, 0, 0.2) ;
+    
+    width: 200px;
+    height: 260px;
+    padding: 6px;
+}
+
+.mobile-photo{
+    height: 200px ;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.mobile-photo img{
+    height: 194px;
+    width: 170px;
+}
+
+.mobile-text1{
+    display: flex;
+    height: 52px;
+    flex-direction: column;
+    padding-top: 12px;
+}
+.mobile-text1 .brand{
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.mobile-text1 .incl{
+    font-size: 14px;
+    text-align: center;
+     font-weight: 600;
+    padding-right: 4px;
+}
+
+.mobile-photo:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.pixel{
+    scale: 1.4;
+}
+
+.iphone img{
+    width: 160px;
+}
+
+#watch{
+    height: 100px;
+    width: 76px;
+    scale: 2;
+}
+
+#saree{
+    height: 120px ;
+    width: 94px;
+    scale: 1.6;
+}
+
+#kurta{
+    height: 120px ;
+    width: 94px;
+    scale: 1.6;
+}
+
+#top-deals{
+    margin-top: 18px;
+}
+
+.festive-sale{
+    margin-top: 30px;
+    background-color: #fff;
+    height: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.festive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 260px;
+
+}
+
+.festive img{
+    width: 408px;
+    height: 221px;
+}
+
+#printer{
+    height: 52px;
+    width: 90px;
+    scale: 2;
+}
+#monitor{
+    height: 80px;
+    width: 98px;
+    scale: 1.8;
+}
+
+#bank{
+    height: 173px;
+    width: 90px;
+    scale: 1;
+}
+
+#ipad{
+    height: 120px;
+    width: 90px;
+    scale: 1.5;
+}
+
+.festive-sale{
+    position: relative;
+    top: 120px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color:#212121 ;
+    position: absolute;
+    width: 100%;
+    height:320px ;
+   top: 1870px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.links{
+    display: flex;
+    height: 210px;
+    padding: 40px 60px 0;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    height:172px ;
+    width: 130px;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.abt-heading{
+    width: 130px;
+    height: 15px;
+    margin-bottom: 12px;
+    color: #fff;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.abt-links{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    /* height: 144px; */
+    justify-content: top;
+    text-decoration: none;
+    
+}
+.abt-links li{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.abt-links li ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.abt-links li ul a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+}
+.help{
+    display: flex;
+}
+.help-heading{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.consumer{
+    display: flex;
+    color: #fff;
+}
+
+.social{
+    display: flex;
+}
+.line{
+    height: 172px;
+    width: .5px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.mail{
+    height: 172px;
+    width: 290px;
+    padding-left: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-haeading{
+    width: 255px;
+    height: 15px;
+    font-size: 12px;
+    color: #878787;
+    margin-bottom: 12px;
+}
+
+.mail-address{
+    width: 255px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.office-add span{
+    color: #2A55E5;
+}
+
+.links2{
+    height: 70px;
+    margin: 40px 0 0 ;
+    padding: 25px 0px;
+    background-color:#212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.hr{
+    width: 100%;
+    height: .1px;
+    background-color: #fff;
+    opacity: 0.5;
+    position: relative;
+    bottom: -40px;
+}
+
+.selller{
+    display: flex;
+    /* flex-direction: row; */
+    height: 18px;
+    width: 113px;
+}
+.iconn{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .iconn i{
+    color: #FFCC00;
+    font-size: 12px;
+}
+
+.selller-texxt{
+    height: 16px;
+    width: 92px;
+    display: flex;
+    text-align: center;
+}
+.selller-texxt p{
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+}
+
+.copyright{
+    height: 1rem;
+    width: 152px;
+    color: #fff;
+    text-align: center;
+}
+
+.copyright p{
+    font-size: 12px;
+}
+
+.debit{
+    height: 18px;
+    width: 378px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.debit img{
+    height: 18px;
+    width: 378px;
+}
+
+.abt-links li ul a:hover{
+    text-decoration: underline;
+}
+.menu{
+    display:none;
+}
+.part1{
+    display: flex;
+    
+}
+.part2{
+    display: flex;
+}
+
+@media  (max-width: 600px) {
+    body{
+        /* width: 200vw; */
+        padding: 0;
+        /* margin-left: 30px; */
+        margin: 0;
+        background: #fff;
+    }
+    .body{
+        /* width: 110vw; */
+        padding: 0;
+    }
+    .header{
+        height: 100px;
+        width: 100%;
+        padding: 8px 16px;
+        display: flex;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+    .header .menu{
+        display: inline-block;
+        height: 27px;
+        width: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header .menu i{
+       font-size: 20px;
+       
+    }
+    .logo{
+        width: 180px;
+        height: 40px ;
+        position:absolute;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .name{
+        width: 160px;
+        height: 40px ;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .name h2{
+        margin: 0;
+        font-weight: 700;
+        font-size: 23px;
+    }
+    .premium{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        /* margin-right: 83px; */
+        /* margin-top: 5px; */
+        width: 160px;
+        height: 40px ;
+    }
+    .premium h4{
+        font-weight: 700;
+    }
+   
+    .search-bar{
+        position: absolute;
+    top: 55px;
+    left: 18px;
+    width: 90vw;
+    display: flex;
+    height: 44px;
+    }
+    .panel-options{
+        left: 310px;
+        top: 6px;
+        width: 102px;
+        height: 20px;
+        position: absolute;
+    }
+    .seller{
+        display: none;
+        position: absolute;
+       
+    }
+    .account{
+        height: 30px;
+        width: 80px;
+    }
+
+    .account-text{
+        display: none;
+    }
+    .cart-text{
+        display: none;
+    }
+    .options{
+        display: none;
+    }
+    .account-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .categories{
+        top: 100px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        height: 160px;
+        /* padding: 5px; */
+    }
+    #text{
+        display: none;
+
+    }
+    .ctgs{
+        height: 73px;
+        width: 70px;
+        margin: 5px;
+    }
+    .part1{
+        display: flex;
+        flex-direction: row;
+      
+    }
+    .part2{
+        display: flex;
+        flex-direction: row;
+    }
+    .carousel{
+        top: 75px;
+       height: 156px;
+       width: 100vw;
+        overflow:hidden;
+    }
+    #carouselExampleInterval{
+        height: 100px;
+        /* width: 100vw */
+        scale: 1;
+
+    }
+    .incl{
+        display: none;
+    }
+    .mobl-txt{
+        width: 100vw;
+        height: 72px;
+    }
+    .best-mobile{
+        height: 240px;
+    }
+    .phones{
+        width: 100vw;
+        height: 166px;
+        padding: 0 12px 12px;
+    }
+    .phone{
+        width: 102px;
+    height: 154px;
+    padding: 4px;
+    margin-right: 20px;
+    }
+    .mobile-photo img{
+        height: 90px;
+        width: 90px;
+    }
+    .mobile-photo{
+        height: 95px;
+        width: 95px;
+    }
+    .phones{
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+    }
+    .iphone img{
+        width: 80px;
+    }
+    .deals-txt{
+        height: 72px;
+    }
+    #watch{
+        scale: 1;
+    }
+    #saree{
+        height: 100px;
+        width: 84px;
+        scale: 1;
+        margin-top: 10px;
+    }
+    #kurta{
+         height: 100px;
+        width: 84px;
+        scale: 1;
+        margin-top: 10px;
+    }
+    .festive-sale{
+        display: none;
+    }
+    #ipad{
+        scale: .8;
+        margin-top: 10px;
+    }
+    #bank{
+        scale: .53;
+    }
+    #monitor{
+        scale: 1;
+    }
+    #printer{
+        scale: 1;
+    }
+    .footer{
+        display: none;
+    }
+}   
